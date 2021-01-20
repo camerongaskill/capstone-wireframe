@@ -1,0 +1,36 @@
+header {
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+form{
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    font-size: 40px;
+}
+
+form input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 5px 40px 5px 40px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 90%;
+    padding-bottom: 5px;
+}
