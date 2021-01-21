@@ -9,6 +9,21 @@ body{
 header {
     border-bottom: 2px solid black;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+header h1{
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+img.logo {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
 }
 
 main {
@@ -16,10 +31,18 @@ main {
 }
 
 #application-start{
+    color: white;
     height: 75vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.jpg");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 #application-start h2{
+    margin-top: 0;
     padding-top: 15vh;
     padding-bottom: 5vh;
     font-size: 40px;
